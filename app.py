@@ -40,8 +40,6 @@ if not os.path.exists('patients.json'):
     with open('patients.json', 'w') as f:
         json.dump([], f)
 
-
-
 # Load the trained model
 model = joblib.load('risk_model.pkl')  # Make sure this path is correct
 
@@ -69,6 +67,15 @@ def predict():
     return jsonify({
         'risk_level': int(prediction)  # Ensures JSON-safe response
     })
+
+@app.route('/api/patients', methods=['GET'])
+def get_patients():
+    try:
+        with open('patients.json', 'r') as f:
+            patients = json.load(f)
+        return jsonify(patients)
+    except Exception as e:
+        return jsonify({'error': 'Failed to read patient data', 'details': str(e)}), 500
 
 if __name__ == '__main__':
     # Start simulator in background
