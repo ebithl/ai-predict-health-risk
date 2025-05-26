@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import joblib
 import numpy as np
 import os
@@ -8,6 +9,7 @@ import json
 import random
 
 app = Flask(__name__)
+CORS(app, origins=["https://patient-monitor-ui.vercel.app"])
 
 def generate_random_vitals():
     return {
