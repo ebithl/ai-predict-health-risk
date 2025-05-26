@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "age": 56,
+    "gender": "male",
+    "vitals": [
+      {
+        "pulse": 69,
+        "spo2": 88,
+        "rr": 20,
+        "bp": "116/80",
+        "temp": 103.6
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "age": 60,
+    "gender": "female",
+    "vitals": [
+      {
+        "pulse": 52,
+        "spo2": 86,
+        "rr": 10,
+        "bp": "93/60",
+        "temp": 97.9
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Michael Brown",
+    "age": 40,
+    "gender": "male",
+    "vitals": [
+      {
+        "pulse": 106,
+        "spo2": 99,
+        "rr": 16,
+        "bp": "103/77",
+        "temp": 100.2
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Wills Smith",
+    "age": 55,
+    "gender": "male",
+    "vitals": [
+      {
+        "pulse": 102,
+        "spo2": 92,
+        "rr": 18,
+        "bp": "104/68",
+        "temp": 100
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Grace Victor",
+    "age": 59,
+    "gender": "female",
+    "vitals": [
+      {
+        "pulse": 127,
+        "spo2": 98,
+        "rr": 13,
+        "bp": "115/71",
+        "temp": 100.9
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Greg Mathew",
+    "age": 75,
+    "gender": "male",
+    "vitals": [
+      {
+        "pulse": 117,
+        "spo2": 94,
+        "rr": 18,
+        "bp": "105/76",
+        "temp": 102
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Tim Jones",
+    "age": 52,
+    "gender": "male",
+    "vitals": [
+      {
+        "pulse": 94,
+        "spo2": 95,
+        "rr": 22,
+        "bp": "104/78",
+        "temp": 97.2
+      }
+    ]
+  }
+]
